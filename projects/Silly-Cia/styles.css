@@ -1,0 +1,33 @@
+h1, h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.sub-header {
+    color: purple;
+}
+
+img {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: solid black 10px;
+}
+
+p, li{
+    font-size: 25px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
