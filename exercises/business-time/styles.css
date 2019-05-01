@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0;
+}
+
+body{
+    background:lavender;
+}
+
+.da-navbar{
+    background: #E8BE5D;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+}
+
+.da-navbar a:hover{
+    background:wheat;
+    color: black;
+}
+
+.box {
+    font-size: 21pt;
+    display: flex;
+    color: #f7f7f7;
+}
+
+a{
+    font-size: 21pt;
+    display: flex;
+    color: #f7f7f7;
+}
+
+a > img{
+    height: 29pt;
+}
+
+.header{
+    height: auto;
+    width: 100%;
+    background: rgb(255, 252, 230);
+    position: absolute;
+    top: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > img{
+    height: 75pt;
+    width: 200pt;
+    
+}
+
+.main{
+    background:rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first > img{
+    height: 100%;
+    width: 100%;
+}
+
+.main1{
+    background:rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second > img{
+    width: 20%;
+    height: 50%;
+}
+
+.da-tshirt{
+    background: rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yeet {
+    font-size: 55pt;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tshirt{
+    background:rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.one > img{
+    width: 40%;
+    flex-direction: row;
+    margin: 25pt;
+}
+
+.text{
+    background:rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.yurt > p{
+    display:flex;
+    font-size: 12pt;
+    background:rgb(255, 248, 204);
+    align-items: center;
+    justify-content: center;
+    padding: 20pt
+}
+
+.one1{
+    font-size: 17pt;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    text-decoration: underline;
+    background: #E8BE5D;
+    border: 2pt outset #E8BE5D;
+}
+
+.price{
+    background:rgb(255, 248, 204);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: #E8BE5D;
+    border: 2pt outset #E8BE5D;    
+}
+
+.one{
+    font-size: 12pt;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.spacer4{
+    z-index: 1pt;
+    height: 10vh;
+    width: 100%;
+    background: rgb(255, 248, 204);
+    bottom: -78pt;   
+}
+
+.spacer{
+    z-index: 1pt;
+    height: 10vh;
+    width: 100%;
+    background: rgb(255, 248, 204);
+    bottom: -78pt;
+}
+
+.spacer1{
+    z-index: 1pt;
+    height: 3vh;
+    width: 100%;
+    background: rgb(255, 248, 204);
+    bottom: -78pt;
+}
+
+.spacer2{
+    z-index: 1pt;
+    height: 10vh;
+    width: 100%;
+    background: rgb(255, 248, 204);
+    bottom: -78pt;
+}
+
+
+.footer{
+    z-index: 1pt;
+    height: 5vh;
+    width: 100%;
+    background: rgb(255, 252, 230);
+    bottom: -78pt;
+    border: 1pt solid wheat;
+}
+
+.footer > p{
+    color: black;
+    font-size: 15pt;
+}
+
+@media only screen and (max-width: 900px){
+    
+    .da-tshirt{
+        background: rgb(255, 248, 204);
+        width: 100%;
+        height: auto;
+        display: block;
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        /* flex-wrap: wrap; */
+        text-align: center;
+    }
+    
+    
+    .yeet {
+        font-size: 35pt;
+        text-align: center;
+        color: #000;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .tshirt{
+        background:rgb(255, 248, 204);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .one > img{
+        width: 50%;
+        height: 90%;
+    }
+
+    .text{
+        background:rgb(255, 248, 204);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .one{
+        font-size: 14pt;
+        color: #000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .price{
+        background:rgb(255, 248, 204);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;    
+        align-items: center;
+        margin: 20pt;
+    }
+    
+    .one{
+        font-size: 12pt;
+        color: #000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;   
+    }
+}
+
+.about1 {
+    font-size: 21pt;
+    display: flex;
+    color: #f7f7f7;
+    width: 100%;
+    background: rgb(255, 252, 230);
+    position: absolute;
+    top: -20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about1 > img{
+    height: 75pt;
+    width: 200pt;
+}
+
+.info{
+    display: flex;
+    position: absolute;
+    top: 55pt;
+    width: 100%;
+    height: 50vh;
+    background:rgb(255, 248, 204);
+    font-size: 30pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.info > p{
+    display: inline-block;
+    font-size: 20pt;
+    color: black;
+    top: 100pt;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30pt;
+    width: 100%;
+    height: auto;
+    background:rgb(255, 252, 230);
+    font-size: 30pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.info3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30pt;
+    position: absolute;
+    top: 95pt;
+    width: 100%;
+    height: auto;
+    background:rgb(255, 252, 230);
+    font-size: 24pt;
+    font-family: cursive;
+    border: 3pt outset black;
+    margin: 0;
+}
+
+.info4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30pt;
+    position: absolute;
+    top: 428pt;
+    width: 100%;
+    height: auto;
+    background: rgb(255, 252, 230);
+    font-size: 18pt;
+    font-family: cursive;
+    margin: 0;
+    border: 3pt outset black;
+}
+
+.info4 > img{
+    margin-right: 20pt;
+    top: 10pt;
+    height: 100pt;
+    width:100pt;
+    border:2pt outset black;
+}
+
+section{
+    background: grey;
+    height:auto;
+    position: relative;
+    top: 50pt;
+    font-size: 20pt;
+    color: black;
+}
+
+input{
+    height: 35pt;
+    width: 80%;
+    top:100pt;
+    margin: 12pt;
+}
+
+button{
+    background: white;
+    height: 35pt;
+    width: 20pt;
+
+}
+
+.footer1{
+    display: flex;
+    position: relative;
+    top: 369pt;
+    z-index: 1pt;
+    height: 5vh;
+    width: 100%;
+    background: rgb(255, 252, 230);
+    bottom: -78pt;
+    border: 1pt solid wheat;
+}
+
+.footer2{
+    display: flex;
+    position: relative;
+    top: 699pt;
+    z-index: 1pt;
+    height: 5vh;
+    width: 100%;
+    background: rgb(255, 252, 230);
+    bottom: -78pt;
+    border: 1pt solid wheat;
+}
+
+.footer1 > p{
+    color: black;
+    font-size: 15pt;
+}
+
+.footer2 > p{
+    color: black;
+    font-size: 15pt;
+}
+
+embed{
+    width:100%;
+    height:8vh;
+}

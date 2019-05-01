@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header > h1{
+    color: yellow;
+    text-decoration: greenyellow underline;
+    background: rgb(70, 70, 70);
+    padding: 10pt;
+    border: 2pt inset yellow;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    margin: 0;
+}
+
+footer{
+    margin: 3pt;
+}
+
+.the-footer{
+    background: rgb(233, 233, 233);
+    border: 1pt inset yellow;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p{
+    margin: 0;
+}
+
+#goom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#bb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#cc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20pt;
+    margin: 1pt;
+}
+
+.goomba > img{
+    height: 100pt;
+    width: 100pt;  
+}
+
+.bomb > img{
+    height: 90pt;
+    width: 90pt;
+    padding-left: 13pt;
+    padding-bottom: 10pt;
+}
+
+.cheep > img{
+    height: 90pt;
+    width: 90pt;  
+    padding-left: 13pt;
+    padding-bottom: 10pt;
+}
+
+#formOne{
+    display: flex;
+    flex-direction: column;
+}
+
+#formTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+#formThree{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form{
+    display: flex;
+    padding-left: 12pt;
+    padding-top: 10pt;
+    width: 80%;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35pt;
+    color: yellow;
+    text-decoration: underline;
+}
+
+#list2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35pt;
+    color: yellow;
+    text-decoration: underline;
+}
+
+#list3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35pt;
+    color: yellow;
+    text-decoration: underline;
+}
+
+input{
+    justify-content: center;
+    align-content: center;
+}
+
+
+button{
+    background-color: yellow;
+    margin: 2pt;
+}
+
+.yeet{
+    background: rgb(170, 170, 170);
+    border: 2pt inset yellow;
+    margin: 1pt;
+}
+
+.yeet2{
+    background: grey;
+    border: 2pt inset yellow;
+    margin: 1pt;
+}
+
+.yeet3{
+    background: rgb(94, 94, 94);
+    border: 2pt inset yellow;
+    margin: 1pt;
+}

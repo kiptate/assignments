@@ -1,0 +1,76 @@
+body{
+    background:rgb(211, 204, 255);
+}
+
+div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+}
+
+section{
+    background:#A987FF;
+    width: 24%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    border: 5pt solid #6A4DB3;
+}
+
+button{
+    display:block;
+    margin:0 auto;
+    background: #FFF687;
+}
+
+p{
+    display:block;
+    margin:0 auto;
+    background: #8AB9FF;
+}
+
+.p1{
+    text-align: center;
+    width: 200pt;
+    height: auto;
+}
+
+.p2{
+    text-align: center;
+    width: 200pt;
+    height: auto;
+}
+
+.p3{
+    text-align: center;
+    width: 200pt;
+    height: auto;
+}
+
+#answer{
+    text-align: center;
+    width: 100pt;
+    height: auto;
+    background: white;
+    border: 2pt solid #6A4DB3;
+}
+
+#answer1{
+    text-align: center;
+    width: 100pt;
+    height: auto;
+    background: white;
+    border: 2pt solid #6A4DB3;
+}
+
+#answer2{
+    text-align: center;
+    width: 100pt;
+    height: auto;
+    background: white;
+    border: 2pt solid #6A4DB3;
+}

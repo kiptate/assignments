@@ -1,0 +1,13 @@
+.da-container{
+    display: flex;
+    background: slategray;
+    width: 400pt;
+    height: 400pt;
+}
+
+.da-container > div {
+    width: 100pt;
+    height: 50pt;
+    background: red;
+    border: dashed white
+}

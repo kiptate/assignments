@@ -1,0 +1,25 @@
+body {
+    background-color: #111111;
+}
+
+h1 {
+    color: #E2E80F;
+    text-align: center;
+    font-size: 25pt;
+}
+
+p {
+    color: #eee;
+    margin: 20px;
+    font-size: 25px;
+}
+
+span.credits {
+    text-decoration: underline;
+    color: #49DAFF;
+}
+
+#film-description {
+    font-size: 18px;
+    font-style: italic
+}

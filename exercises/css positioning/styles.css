@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-size: 50pt;
+    width: auto;
+    
+}
+
+.box{
+    background: black;
+    height: 200pt;
+    width: 200pt;
+    border: black 5pt solid;
+}
+
+.one{
+    background: lightblue;
+    position: fixed;
+    top: 0pt;
+}
+
+.child{
+    display: inline-block;
+    width: 80pt;
+    height: 80pt;
+    background: teal;
+    position: relative;
+    right: 50%;
+    top: 50%
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+.box-container{
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+}
+
+p{
+    display: inline-block;
+    width: 30%;
+}
+
+.box{
+    display: inline-block;
+    height: 100pt;
+}
+
+.top{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: solid 5pt #000;
+}
+
+.top > h1{
+    color: black;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.left{
+    background: #fff;
+    width: 50%;
+    border: solid 2pt black;
+    height: 350pt;
+}
+
+.left img{
+    padding-left: 18pt;
+    padding-bottom: 45pt;
+    padding-top: 25pt;
+    height: 350pt;
+    width: 360pt;
+}
