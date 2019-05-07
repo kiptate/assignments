@@ -1,0 +1,64 @@
+//JSON should consist of multiple properties, each one an array, represent the array of options available for:
+
+{
+    "the_appetizers" : {
+        "Breadstick" : {
+            "name" : "Breadstick",
+            "content" : ["bread", "butter", "bacon", "purpsauce"],
+            "similar_to" : ["rolls", "breadloaf", "croissant"]
+            },
+        "Tempura_Chicken" : {
+            "name" : "Tempura Chicken",
+            "content" : ["chicken", "deepfried", "batter", "danksauce"],
+            "similar_to" : ["tempura shrimp", "deepfriedveggies", "chickensticks"]
+            }
+    },
+    "cold_sandwiches" : {
+        "Ham_Sandwich" : {
+            "name" : "Ham Sandwich",
+            "content" : ["ham", "avacado", "tomato", "limejuice", "cilantro", "pico", "bread"],
+            "similar_to" : ["panini", "footlong", "roastbeef sandwich"]
+        },
+        "Chicken_Sandwich" : {
+            "name" : "Chicken Sandwich",
+            "content" : ["chickenslices", "mayo", "mustard", "spicesauce"],
+            "similar_to" : ["hot tamali", "empanada", "chickenstrips"]
+        }
+    },
+    "hot_sandwiches" : {
+        "Toasted_Yonk" : {
+            "name" : "Toasted Yonk",
+            "content" : ["yeet sauce", "yonkjuice", "toastedbread", "meatballs"],
+            "similar_to" : ["yeet", "yonk", "speghetti"]
+        },
+        "Burnt_Roastbeef" : {
+            "name" : "Burnt Beef Sandwich",
+            "content" : ["burntbread", "overcookedbeef", "mayo", "ketchup"],
+            "similar_to" : ["death", "depression", "foodpoisoning"]
+        }
+    },
+    "desserts" : {
+        "Frozen_Yogurt" : {
+            "name" : "Frozen Gurt",
+            "content" : ["ice", "yogurt", "sizzurp", "gelato"],
+            "similar_to" : ["strawberry yogurt", "life", "ice cream"]
+        },
+        "Cake" : {
+            "name" : "Cake",
+            "content" : ["chocolate", "vanilla", "cream", "layers of bread"],
+            "similar_to" : ["cake pops", "cupcakes", "dankcake"]
+        }
+    },
+    "drinks" : {
+        "Soda" : {
+            "name" : "Soda",
+            "content" : ["corn sizzurp", "unhealthy chemicals", "phosphoric acid"],
+            "similar_to" : ["coca cola", "sprite", "dr pepper"]
+        },
+        "Fruit_Smoothie" : {
+            "name" : "Fruity Smoothie",
+            "content" : ["blueberrys", "whey protien", "bananas", "milk"],
+            "similar_to" : ["jamba juice", "health potion", "milkshakes", "vegan smoothie"]
+        }
+    } 
+}
