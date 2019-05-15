@@ -1,0 +1,192 @@
+.main-container{
+    background: rgb(223, 242, 249);
+    padding: 50pt 0pt 50pt 0pt;
+}
+  
+h1{
+    font-family: 'Poiret One';
+    text-align: center;
+    font-size: 48pt;
+    padding: 100pt 0pt 70pt 0pt;
+}
+  
+.container{
+    background: #888;
+    height: 500pt;
+    border: 1pt solid lightgrey;
+}
+  
+.second-box{
+    border: 2pt solid lightgrey;
+    background: rgb(245, 245, 245);
+    font-size: 22pt;
+}
+
+.second-box>h2{
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    font-family: 'Poiret One';
+    padding: 10pt 0pt 0pt 0pt;
+}
+
+.second-box>.pricetag{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 45%;
+}
+
+.pricetag>.price_currency{
+    font-size: 40pt;
+    padding: 9pt 0pt 0pt 0pt;
+    font-family: 'Poiret One';
+}
+
+.pricetag>.price_amount{
+    font-size: 150pt;
+    font-family: 'Molengo';
+}
+
+.pricetag>.price_cent{
+    font-size: 50pt;
+    padding: 15pt 0pt 0pt 0pt;
+    font-family: 'Molengo';
+}
+
+.price_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0pt 0pt 20pt 0pt;
+}
+
+.price_button>button{
+    background: rgb(216, 126, 255);
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50pt;
+    width: 280pt;
+    font-size: 20pt;
+    border: 2pt solid rgb(109, 0, 155);
+    font-family: 'Molengo';
+}
+
+.price_button>button:hover{
+    border: 2pt solid grey;
+    background:rgb(236, 192, 255)
+}
+
+.second-box>p{
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    font-family: 'Poiret One';
+    padding: 10pt 0pt 5pt 0pt
+}
+
+.second-box:hover{
+    border: 2pt solid lightblue;
+    background: white;
+}
+
+.third-box{
+    border: 2pt solid lightgrey;
+    background: rgb(245, 245, 245);
+    font-size: 22pt;
+}
+
+.third-box>h2{
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    font-family: 'Poiret One';
+    padding: 10pt 0pt 0pt 0pt;
+}
+
+.third-box>.pricetag2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 45%;
+}
+
+.pricetag2>.price_currency2{
+    font-size: 40pt;
+    padding: 9pt 0pt 0pt 0pt;
+    font-family: 'Poiret One';
+}
+
+.pricetag2>.price_amount2{
+    font-size: 150pt;
+    font-family: 'Molengo';
+}
+
+.pricetag2>.price_cent2{
+    font-size: 50pt;
+    padding: 15pt 0pt 0pt 0pt;
+    font-family: 'Molengo';
+}
+
+.price_button2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0pt 0pt 20pt 0pt;
+}
+
+.price_button2>button{
+    background: rgb(216, 126, 255);
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50pt;
+    width: 280pt;
+    font-size: 20pt;
+    border: 2pt solid rgb(109, 0, 155);
+    font-family: 'Molengo';
+}
+
+.price_button2>button:hover{
+    border: 2pt solid grey;
+    background:rgb(236, 192, 255)
+}
+
+.third-box>p{
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+    font-family: 'Poiret One';
+    padding: 10pt 0pt 5pt 0pt
+}
+
+.third-box:hover{
+    border: 2pt solid lightblue;
+    background: white;
+}
+
+.fourth-box{
+    border: 2pt solid lightgrey;
+    background: palegoldenrod;
+    font-size: 22pt;
+}
+
+.fourth-box:hover{
+    border: 2pt solid lightblue;
+}
+
+@media(min-width: 1130px){
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        width: 33.333%;
+    }
+}

@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: pink;
+    height: 40pt;
+    width: 100%;
+    font-size: 20pt;
+    color: black;
+    position: fixed;
+}
+
+.about{
+    font-size: 20pt;
+}
+
+.serv{
+    font-size: 20pt;
+}
+
+.port{
+    font-size: 20pt;
+}

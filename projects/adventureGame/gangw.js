@@ -1,18 +1,18 @@
 const ask = require('readline-sync')
 
-console.log('Welcome to my twisted world.... Gamers RISE UP!')
+console.log('\nWelcome to my twisted world.... Gamers RISE UP!\n')
 
-let username = ask.question('What is your name gamer? ')
+let username = ask.question('What is your name gamer? \n')
 
 function User (name){
     this.name = name
     this.hp = 100
     this.theHp = 300
-    this.inventory = ['green apple']
+    this.inventory = ['Prank Flower']
     this.isAlive = true
     this.hasWon = false
     this.attack = function(){
-        return Math.floor(Math.random()* 10) + 3
+        return Math.floor(Math.random()* 12) + 3
     }
 }
 
@@ -37,7 +37,7 @@ const enemies = [chad, veronica, drumft, christian]
 
 
 while(!gamer.hasWon && gamer.isAlive){
-    let command = ask.keyIn('We live in a society Press [W] to explore the lands and see how mad men are made. Press [B] to open your backpack. Press [Q] to leave this society and not RISE UP! Press [Q] ', {limit: 'pwbq'}) 
+    let command = ask.keyIn('We live in a society Press [W] to explore and see how mad men are made. Press [B] to open your backpack. Press [Q] to leave this society and not RISE UP! ', {limit: 'pwbq'}) 
     if(command === 'p'){
         console.log(gamer)
     }else if(command === 'w'){
@@ -46,25 +46,26 @@ while(!gamer.hasWon && gamer.isAlive){
         openBackpack()
     }else {
         gamer.isAlive = false
+        console.log(`\nYou did not RISE UP! You've disappeared into the Matrix, Goodbye ${gamer.name}..\n`)
     }
 }
 
 function walk(){
     let random = Math.floor(Math.random()*3)+ 1
     if(random < 3){
-        console.log("You're now walking through a twisted society...")
+        console.log("You're now walking through a twisted society... \n")
     }else{
         enemyEncounter()
     }
 }
 
 function openBackpack(){
-    console.log(`Your backpack is holding ${gamer.inventory}`)
+    console.log(`\nYour backpack is holding ${gamer.inventory}\n`)
 }
 
 function enemyEncounter(){
     let enemy = enemies[Math.floor(Math.random()*enemies.length)]
-    let command = ask.keyIn(`${enemy.name} has blocked your path... Press [R] to RISE UP against ${enemy.name}!!! Press [F] to flee... `, {limit: 'rf'})
+    let command = ask.keyIn(`\n${enemy.name} has blocked your path... Press [R] to RISE UP against ${enemy.name}!!! Press [F] to flee... `, {limit: 'rf'})
     if(command === 'f'){
         flee(enemy)
     }else{
@@ -75,7 +76,7 @@ function enemyEncounter(){
         }else if(enemy.hp <= 0){
             addHp(gamer)
             addItem(gamer)
-            console.log("You've are now at 300 HP! & recieved a red apple")
+            console.log("\nYou've are now at 300 HP! & recieved a Potato Peeler!\n")
         }
     }
 }
@@ -92,7 +93,7 @@ function flee(enemy){
         }else if(enemy.hp < 0){
             addHp(gamer)
             addItem(gamer)
-            console.log("You've are now at 300 HP! & received a red apple!")
+            console.log("\nYou've are now at 300 HP! & received a Potato Peeler!\n")
         }
     }
 }
@@ -104,22 +105,23 @@ function shlonk(enemy){
     }else{
         enemy.hp -= gamer.attack()
         gamer.hp -= enemy.attack()
-        console.log (`${enemy.name} shlonked ${gamer.name}!! \n${gamer.name}'s HP is at ${gamer.hp}\n${enemy.name}'s HP is at ${enemy.hp}`)
+        console.log (`\n${enemy.name} shlonked ${gamer.name}!! \n${gamer.name}'s HP is at ${gamer.hp}\n${gamer.name} yeeted ${enemy.name}\n${enemy.name}'s HP is at ${enemy.hp} \n`)
     }
 }
 
 function deathMessage(enemy){
     // gamer.isAlive = false
-    let command = ask.keyIn(`${enemy.name} killed you... You did not RISE UP... Press [Y] to restart game or [Q] to quit. `, {limit: 'yq'})
+    let command = ask.keyIn(`${enemy.name} killed you... You did not RISE UP... Press [Y] to restart game or [Q] to quit. \n`, {limit: 'yq'})
     if(command === 'y'){
         enemy.hp = enemy.startingHp
-        console.log('Welcome to my twisted world.... Gamers RISE UP!')
-        let username = ask.question('What is your name gamer? ')
+        console.log('\nWelcome to my Twisted World.... Gamers RISE UP!\n')
+        let username = ask.question('What is your name gamer? \n')
         gamer = new User(username)
         console.log(gamer)
         !gamer.hasWon && gamer.isAlive
     }else{
         gamer.isAlive = false
+        console.log(`\nYou did not RISE UP! You've disappeared into the Matrix, Goodbye ${gamer.name}..\n`)
     }
 }
 
@@ -128,5 +130,5 @@ function addHp(gamer){
 }
 
 function addItem(gamer){
-    gamer.inventory.push('red apple')
+    gamer.inventory.push('Potato Peeler')
 }
