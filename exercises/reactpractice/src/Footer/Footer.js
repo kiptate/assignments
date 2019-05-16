@@ -3,7 +3,10 @@ import './footerstyles.css'
 
 function Footer() {
     return(
-        <div className='footer'>Footer</div>
+        <div className='footer'>
+            <div className='contact'>Contact Us</div>
+            <div className='email'>CloudHostingPros@gmail.com</div>
+        </div>
     )
 }
 
