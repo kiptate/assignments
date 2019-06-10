@@ -1,0 +1,85 @@
+.tabmain{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabmain2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+    padding: 15pt 10pt 15pt 10pt;
+    border-radius: 12px;
+}
+
+.tabmain3{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 95%;
+    align-items: center;
+    padding: 15pt 2pt 15pt 2pt;
+    box-shadow: 4pt 4pt black;
+    border: 1pt solid black;
+    border-radius: 12px;
+}
+
+.tabmain3-city{
+    display: flex;
+    justify-content: center;
+    height: 95%;
+    width: 90%;
+    margin: 7pt 5pt 7pt 0pt;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+}
+
+.tabacttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    padding: 10pt 10pt 10pt 10pt;
+    margin: 10pt 10pt 10pt 10pt;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1pt solid black;
+    border-radius: 12px;  
+    box-shadow: 4pt 4pt black;
+    background-image: url('https://i.imgur.com/4fAIg7i.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 25%;
+}
+
+.taboutus{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10pt 10pt 10pt 10pt;
+    margin: 10pt 10pt 10pt 10pt;
+    border-radius: 12px;
+}
+
+.tsection1{
+    height: 70%;
+    width: 100%;
+    margin: 60pt 0pt 0pt 0pt;
+}
+
+.tdescription{
+    font-size: 15pt;
+    width: 80%;
+    margin: 18pt 0pt 0pt 34pt;
+}
+
+.textbox{
+    height: 200pt;
+    width: 100%;
+    margin: 0pt 0pt 20pt 0pt;
+    background-color: rgb(183, 227, 252, 0.5)
+}

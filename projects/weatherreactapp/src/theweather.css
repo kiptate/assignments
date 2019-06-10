@@ -1,0 +1,14 @@
+.country{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font-size: 20pt;
+}
+
+.thecity{
+    font-family: 'Poppins', sans-serif;
+    font-size: 88pt;
+    margin: 0pt 0pt 0pt 0pt;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 3px #000000;
+}

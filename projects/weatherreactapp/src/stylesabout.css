@@ -1,0 +1,90 @@
+.abmain{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.abmain2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 95%;
+    padding: 15pt 10pt 15pt 10pt;
+    border-radius: 12px;
+}
+
+.abmain3{
+    display: flex;
+    justify-content: center;
+    height: 95%;
+    width: 95%;
+    align-items: center;
+    padding: 15pt 2pt 15pt 2pt;
+    box-shadow: 4pt 4pt black;
+    border: 1pt solid black;
+    border-radius: 12px; 
+}
+
+.abmain3-city{
+    display: flex;
+    justify-content: center;
+    height: 95%;
+    width: 90%;
+    margin: 7pt 5pt 7pt 0pt;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+}
+
+.abacttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    padding: 10pt 10pt 10pt 10pt;
+    margin: 10pt 10pt 10pt 10pt;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1pt solid black;
+    border-radius: 12px;  
+    box-shadow: 4pt 4pt black;
+    background-image: url('https://i.imgur.com/nbc7LMS.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 20%;
+}
+
+.aboutus{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10pt 10pt 10pt 10pt;
+    margin: 10pt 10pt 10pt 10pt;
+    border-radius: 12px;
+}
+
+.section1{
+    height: 78%;
+    width: 70%;
+    background-image:url('https://png2.kisspng.com/sh/9b94ec117cf972b731151aca4467a40a/L0KzQYi4UsE6N5hBfJGAYUO8dIWAUsFka2Q5TJCAMEa3RYK9WME2OWQ8S6s8N0i0QYiBUcg2P191htk=/5a39d4721cc344.50645168151373937811781857.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0pt auto;
+}
+
+.description{
+    font-size: 15pt;
+    width: 80%;
+    margin: 30pt 0pt 0pt 34pt;
+}
+
+.realdude{
+    width: 40%;
+    height: 50%;
+    margin: 10pt 0pt -8pt 310pt;
+    background-image:url('https://png2.kisspng.com/sh/7b9491e7eb2f4ecb86eb2f06b45530c5/L0KzQYm3VsE5N6N3e5H0aYP2gLBuTgNqb556htY2ZoLohbW0lPhmNaF4kdVxb4DkhLn2jP9ogV50fp9udnX1ibXomb1tcZdqRadrMkfoR4bpgfQxbWU3RqI8NUG0RYK5UcUzQWQ5SakDN0ezSIm1kP5o/kisspng-sigmund-freud-the-psychopathology-of-everyday-life-5b27e75bad0e42.0351151215293417877088.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}

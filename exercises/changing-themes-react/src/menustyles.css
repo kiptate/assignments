@@ -1,0 +1,20 @@
+.empty{
+    padding: 57pt 0pt 0pt 0pt;
+}
+
+.dark{
+    background-color: #333;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+    background-color: antiquewhite;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

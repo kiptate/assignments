@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    width: 100%;
+    background-image: url('https://i.imgur.com/jECQbrt.png');
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 160pt 10pt 160pt 0pt;
+}
+  
+.nav-item{
+    /* border: 1pt solid rgb(181, 181, 181); */
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, rgb(227, 227, 227, 0.2), white);
+    width: 120pt;
+    height: 50pt;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+  
+.nav-item:hover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1pt solid rgb(255, 255, 255);
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, rgb(227, 227, 227, 0.2), white);
+    width: 120pt;
+    height: 50pt;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+  

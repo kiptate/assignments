@@ -1,0 +1,50 @@
+form>input{
+    display: flex;
+    flex-direction: column;
+    height: 20pt;
+    width: 200pt;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0pt auto;
+    text-align: center;
+    background-color: rgba(28, 48, 62, 0.1);
+}
+
+form>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0pt auto;
+    width: 60%;
+    height: 40pt;
+    background-color: rgba(173, 236, 250, 0.3);
+    box-shadow: 3pt 3pt rgb(65, 65, 65, 0.5);
+    border-radius: 12px;
+}
+
+.inputheader{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5pt 0pt 5pt 0pt;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.inputlogo{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5pt 0pt 5pt 0pt;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.logo{
+    width: 100pt;
+    margin: 0pt 0pt 0pt 55pt;
+}
