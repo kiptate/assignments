@@ -3,7 +3,7 @@ import axios from 'axios';
 const {Provider, Consumer} = React.createContext()
 
 
-class GlobalProvider extends React.Component{
+class GlobalProvider extends Component{
     constructor() {
         super()
         this.state = {
